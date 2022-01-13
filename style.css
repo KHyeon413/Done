@@ -124,7 +124,7 @@ body {
 .navbar-light .navbar-brand {
   line-height: 1.68;
   text-align: left;
-  color: #35465d; 
+  color: #78B7BB; 
 }
 
 .navbar-light .navbar-toggler {
@@ -138,13 +138,13 @@ body {
 .title {
   line-height: 1.67;
   text-align: center;
-  color: #35465d;
+  color: #78B7BB;
 }
 
 .subtitle {
   line-height: 1.53;
   text-align: center;
-  color: #35465d;
+  color: #78B7BB;
 }
 
 /* On screens that are 600px or less, set the background color to olive */
