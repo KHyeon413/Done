@@ -513,3 +513,13 @@ input:checked + label > .knob > i:before {
     width: 320px;
     margin: 0 auto;
 }
+
+.kakao-adfit{
+  text-align: center;
+  align-content: center;
+}
+
+.ad-banner{
+  width: 320px;
+  margin: 0 auto;
+}
