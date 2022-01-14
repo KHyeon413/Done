@@ -100,7 +100,7 @@ xc<!DOCTYPE html>
             var title = "<div class='" + prediction[0].className + "-animal-title'>" + resultTitle + "</div>"
             var explain = "<div class='animal-explain pt-2'>" + resultExplain + "</div>"
             var celeb = "<div class='" + prediction[0].className + "-animal-celeb pt-2 pb-2'>" + resultCeleb + "</div>"
-            var pic = "<img src='" + resultpic +"'width='40%' heigt='auto'>"
+            var pic = "<img src='" + resultpic +"'width='20%' heigt='auto'>"
             $('.result-message').html(pic + title + explain + celeb );
             console.log(pic);
             var barWidth;
@@ -248,6 +248,26 @@ xc<!DOCTYPE html>
   <!-- Go to www.addthis.com/dashboard to customize your tools -->
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-61e0fe930cbe248d"></script>
     
+  
+  <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://khyeon.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </body>
 
 <!-- 
