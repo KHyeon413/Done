@@ -18,7 +18,7 @@ xc<!DOCTYPE html>
     <meta property="og:url" content="https://squidgameai.netlify.app/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="BTS 멤버 닮은꼴" />
-    <meta property="og:description" content="BTS 멤버 닮은꼴 찾기, 인공지능 BTS 멤버 닮은꼴 찾기, 나와 닮은 연예인, squid game, 얼굴 평가, 오징어게임, 제이홉, 랩몬스터, 슈가, 지민, 뷔"
+    <meta property="og:description" content="BTS 멤버 닮은꼴 찾기, 인공지능 BTS 멤버 닮은꼴 찾기, 나와 닮은 연예인, 얼굴 평가, 제이홉, 랩몬스터, 슈가, 지민, 뷔"
     />
     <meta property="og:image" content="./thumbnail.png" />    
     <meta name="google-site-verification" content="PD9c4HJRQfHMMuxzKekUbCd8jdX6iIqEqsj2S9p3Cvc" />
@@ -100,7 +100,7 @@ xc<!DOCTYPE html>
             var title = "<div class='" + prediction[0].className + "-animal-title'>" + resultTitle + "</div>"
             var explain = "<div class='animal-explain pt-2'>" + resultExplain + "</div>"
             var celeb = "<div class='" + prediction[0].className + "-animal-celeb pt-2 pb-2'>" + resultCeleb + "</div>"
-            var pic = "<img src='" + resultpic +"'width='60%' heigt='auto'>"
+            var pic = "<img src='" + resultpic +"'width='40%' heigt='auto'>"
             $('.result-message').html(pic + title + explain + celeb );
             console.log(pic);
             var barWidth;
@@ -194,13 +194,15 @@ xc<!DOCTYPE html>
             </div>
             <p class="result-message"></p>
             <div id="label-container" class="d-flex flex-column justify-content-around"></div>
-            <div id="addThis" class="addthis_inline_share_toolbox_6lz1"></div>
-
+           
             <div class="pt-3 image-title-wrap">
                 <button type="button p-2" class="try-again-btn" onclick="window.location.reload();">
                     <span class="try-again-text">다른 사진으로 재시도</span>
                 </button>
             </div>
+            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <div class="addthis_inline_share_toolbox"></div>
+            
         </div>
     </div>
     
@@ -241,6 +243,10 @@ xc<!DOCTYPE html>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
 
+  <!--공유-->
+            
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-61e0fe930cbe248d"></script>
     
 </body>
 
